@@ -4,7 +4,15 @@
 <head>
     <title>Web Portfolio</title>
     <link rel="stylesheet" href="./styles.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/svg-with-js.min.css">
+     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+
 </head>
 
 <body>
@@ -32,7 +40,7 @@
             Below are a list of few projects that I made along the way
         </div>
     </div>
-    <div id="skillset" class="skillset">
+    <div data-aos="fade-up" data-aos-duration="9000" id="skillset" class="skillset">
         <div><h2>SkillSet</h2></div>
         <div class="skills">
             <div class="sk">Java</div>
@@ -46,7 +54,7 @@
         </div>
     </div>
     <hr>
-    <div id="project" class="projects">
+    <div data-aos="fade-up" data-aos-duration="9000" id="project" class="projects">
         <div><h2>Projects</h2></div>
         <div class="list">
             <div class="card">
@@ -105,87 +113,70 @@
         </div>
     </div>
     
+    <div class="Footer">
+        <div class="Follow">
+            <h3>Follow us</h3>
+            <ul>
+                <li>
+                    <a href="https://facebook.com"  class="fab fa-facebook">
 
-    <footer id="contact" class="footer">
-        <div class="footer__addr">
-            <!-- <h1 class="footer__logo"></h1> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" class="fab fa-twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" class="fab fa-instagram">
 
-            <h2>Contact</h2>
+                    </a>
+                </li>
+            </ul>
 
-            <address>
-                <p class="add">Sec 5/B Qtr 1035 Bokaro Steel city India</p><br>
-                <a class="footer__btn" href="vermaisat@gmail.com">Email Us</a>
-            </address>
         </div>
 
-        <ul class="footer__nav">
-            <li class="nav__item">
-                <h2 class="nav__title">Media</h2>
-
-                <ul class="nav__ul">
-                    <li>
-                        <a href="#">Online</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Apps</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Alternative Ads</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="nav__item nav__item--extra">
-                <h2 class="nav__title">Social Media</h2>
-
-                <ul class="nav__ul nav__ul--extra">
-                    <li>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="#"><i class="fab fa-twitter-square"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="#"><i class="fab fa-quora"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="#"><i class="fab fa-instagram-square"></a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="nav__item">
-                <h2 class="nav__title">Legal</h2>
-
-                <ul class="nav__ul">
-                    <li>
-                        <a href="#">Privacy Policy</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Terms of Use</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Sitemap</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        <div class="legal">
-            <p>&copy; 2020 All rights reserved.</p>
-
-            <div class="legal__links">
-                <span>Made with <span class="heart"></span> remotely from Anywhere</span>
+        <div class="Contact">
+            <h3>Contact Us</h3>
+            <div class="icon">
+                <i class="fas fa-mobile-alt"></i>
+                <p>Phone:
+        <span>1234567890</span>
+                </p>
+                <i class="far fa-envelope"></i>
+                <p>Email:
+        <a href="vermaisat@gmail.com">vermaisat@gmail.com</a>
+                </p>
             </div>
+
+
+
         </div>
-    </footer>
+        <div class="Information">
+            <h3>Information</h3>
+            <ul>
+
+                <li>
+                    <a href="/AboutUs">About us</a>
+                </li>
+                <li>
+                    <a href="/help">Help</a>
+                </li>
+                <li>
+                    <a href="/feedback">Feedback</a>
+                </li>
+                <li>
+                    <a href="/terms&conditions">Terms&Conditions</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="lower">
+        <hr></hr>
+        <p>© 2020 Hunter. All Rights Reserved</p>
+    </div>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
